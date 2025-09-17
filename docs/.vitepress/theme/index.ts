@@ -25,9 +25,9 @@ export default {
   
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'aside-ads-before': () =>  h('div', {}, [h(Donate),h(AsideSponsors)]), 
-      'aside-ads-after': () => h(Authors),
-      'doc-before': () => h(BannerSponsor),
+      //'aside-ads-before': () =>  h('div', {}, [h(Donate),h(AsideSponsors)]), 
+      //'aside-ads-after': () => h(Authors),
+      //'doc-before': () => h(BannerSponsor),
       'doc-bottom': () => h(FooterLinks),
       'doc-footer-before': () =>isMobileorTablet.value? h('div', {}, [h(Donate), h(Authors)]): null,
       'doc-after': () =>isMobileorTablet.value? h(AsideSponsors, { style: { marginTop: '24px' } }): null,
