@@ -1,7 +1,7 @@
 ---
 description: Kerberos Ticket Request Attacks
 authors: pozivonpm
-category: ad
+category: ad, kerberos
 ---
 # Ticket Request Attacks
 

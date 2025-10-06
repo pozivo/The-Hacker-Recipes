@@ -76,6 +76,10 @@ export default defineConfig({
                             {
                                 "text": "Ticket Request Attacks",
                                 "link": "/ad/kerberos/TicketRequestAttacks.md",
+                            },
+                            {
+                                "text": "Ticket Abuse Attacks",
+                                "link": "/ad/kerberos/DelegationAttacks.md"
                             }
                         ]
                     },

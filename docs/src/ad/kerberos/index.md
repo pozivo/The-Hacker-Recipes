@@ -1,6 +1,6 @@
 ---
 authors: pozivonpm
-category: ad
+category: ad, kerberos
 ---
 
 # Attacchi Kerberos
